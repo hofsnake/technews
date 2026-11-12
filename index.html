@@ -52,6 +52,23 @@
   .links a { background: var(--card); border: 1px solid var(--line); color: var(--accent); text-decoration: none; font-weight: 600; padding: 8px 14px; border-radius: 10px; font-size: 0.95rem; }
   .links a:hover { background: var(--accent-soft); }
   .msg { color: var(--muted); font-size: 1.1rem; }
+  .card { position: relative; }
+  .actions { margin-top: auto; padding-top: 6px; display: flex; justify-content: flex-end; }
+  .nope, .undo {
+    font: inherit; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+    border-radius: 999px; padding: 5px 12px; border: 1px solid var(--line);
+    background: #fafaf8; color: var(--muted);
+  }
+  .nope:hover, .nope:focus-visible { background: #fdecec; border-color: #f3c2c2; color: #b42318; outline: none; }
+  .undo { background: var(--accent-soft); color: var(--accent); border-color: #bfe3dc; }
+  .undo:hover, .undo:focus-visible { background: #d3ede8; outline: none; }
+  .hidden-row { display: none; align-items: center; justify-content: space-between; gap: 12px; font-size: 0.92rem; color: var(--muted); }
+  .hidden-row .ht { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .card.dismissed { background: #f1efea; box-shadow: none; padding: 12px 16px; opacity: .85; }
+  .card.dismissed:hover { transform: none; box-shadow: none; }
+  .card.dismissed > :not(.hidden-row) { display: none; }
+  .card.dismissed .hidden-row { display: flex; }
+  .hint { margin: 0 0 12px; font-size: 0.92rem; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -65,13 +82,13 @@
     <div class="brand">☕ Morning Tech News</div>
   </header>
 
+  <p class="hint">Not your thing? Tap <b>&#128078; Not for me</b> on a story and I'll pick fewer like it.</p>
   <main class="grid" id="stories"><p class="msg">Loading today's stories...</p></main>
 
   <footer>
     <h3>Your favorite sites</h3>
     <nav class="links">
       <a href="https://www.techmeme.com" target="_blank" rel="noopener">Techmeme</a>
-      <a href="https://www.theverge.com" target="_blank" rel="noopener">The Verge</a>
       <a href="https://www.engadget.com" target="_blank" rel="noopener">Engadget</a>
       <a href="https://9to5mac.com" target="_blank" rel="noopener">9to5Mac</a>
       <a href="https://www.cnet.com/tech/" target="_blank" rel="noopener">CNET</a>
@@ -83,10 +100,43 @@
 <script>
 (function () {
   var DAY = { weekday: "long", month: "short", day: "numeric" };
+  // Public, insert-only feedback table (RLS: anon may INSERT only, never read).
+  var SB_URL = "https://zfwgucpkekllkpzvykwh.supabase.co/rest/v1/technews_feedback";
+  var SB_KEY = "sb_publishable_FgNNf7bHFcwajWhUZ6TU5g_BfBfnjYr";
+  var HIDDEN_KEY = "technews_hidden_v1", QUEUE_KEY = "technews_pending_v1";
+
   function fmt(d, opts) { return d.toLocaleDateString("en-US", opts || DAY); }
   function parseLocal(s) { var p = String(s).split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
   function ymd(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function load(k, dflt) { try { var v = JSON.parse(localStorage.getItem(k)); return v == null ? dflt : v; } catch (e) { return dflt; } }
+  function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+
+  // Remember hidden stories for 45 days so they stay dimmed on reload.
+  var hidden = load(HIDDEN_KEY, {});
+  (function prune() { var cut = Date.now() - 45 * 864e5; Object.keys(hidden).forEach(function (k) { if (hidden[k] < cut) delete hidden[k]; }); save(HIDDEN_KEY, hidden); })();
+
+  function post(row) {
+    return fetch(SB_URL, {
+      method: "POST", keepalive: true,
+      headers: { "apikey": SB_KEY, "Authorization": "Bearer " + SB_KEY, "Content-Type": "application/json", "Prefer": "return=minimal" },
+      body: JSON.stringify(row)
+    }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); });
+  }
+  // Send now, retry once after 4s, then park it in localStorage to send on the next visit.
+  function send(row) {
+    return post(row).catch(function () {
+      return new Promise(function (res) { setTimeout(res, 4000); }).then(function () { return post(row); });
+    }).catch(function () {
+      var q = load(QUEUE_KEY, []); q.push(row); save(QUEUE_KEY, q.slice(-50));
+    });
+  }
+  function flushQueue() {
+    var q = load(QUEUE_KEY, []); if (!q.length || navigator.onLine === false) return;
+    save(QUEUE_KEY, []);
+    q.reduce(function (p, row) { return p.then(function () { return post(row).catch(function () { var r = load(QUEUE_KEY, []); r.push(row); save(QUEUE_KEY, r.slice(-50)); }); }); }, Promise.resolve());
+  }
+  window.addEventListener("online", flushQueue);
 
   var today = new Date();
   document.getElementById("date").textContent = fmt(today);
@@ -113,8 +163,33 @@
         a.href = it.url; a.target = "_blank"; a.rel = "noopener";
         h.appendChild(a); card.appendChild(h);
         if (it.note) card.appendChild(el("p", "note", it.note));
+
+        var row = { story_date: data.date || ymd(today), title: String(it.title).slice(0, 400), url: String(it.url || "").slice(0, 1000),
+                    source: it.source ? String(it.source).slice(0, 100) : null, tag: it.tag ? String(it.tag).slice(0, 50) : null };
+        var actions = el("div", "actions");
+        var nope = el("button", "nope", "\uD83D\uDC4E Not for me");
+        nope.type = "button"; nope.title = "Not interested: show fewer stories like this";
+        nope.setAttribute("aria-label", "Not interested in: " + it.title);
+        actions.appendChild(nope); card.appendChild(actions);
+
+        var hr = el("div", "hidden-row");
+        hr.appendChild(el("span", "ht", "Hidden. I'll show fewer like this."));
+        var undo = el("button", "undo", "Undo"); undo.type = "button";
+        undo.setAttribute("aria-label", "Undo, show this story again: " + it.title);
+        hr.appendChild(undo); card.appendChild(hr);
+
+        nope.addEventListener("click", function () {
+          card.classList.add("dismissed"); hidden[it.url] = Date.now(); save(HIDDEN_KEY, hidden); undo.focus();
+          send(Object.assign({ action: "not_interested" }, row));
+        });
+        undo.addEventListener("click", function () {
+          card.classList.remove("dismissed"); delete hidden[it.url]; save(HIDDEN_KEY, hidden); nope.focus();
+          send(Object.assign({ action: "undo" }, row));
+        });
+        if (hidden[it.url]) card.classList.add("dismissed");
         box.appendChild(card);
       });
+      flushQueue();
     })
     .catch(function () {
       document.getElementById("stories").innerHTML = '<p class="msg">Couldn\'t load today\'s stories. Try refreshing, or use the links below.</p>';

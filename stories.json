@@ -3,11 +3,11 @@
   "greeting": "Good morning, Rick! Grab your coffee, here's what's new in tech today.",
   "items": [
     {
-      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-      "source": "The Verge",
+      "title": "Jensen Huang is out as Nvidia CEO",
+      "url": "https://www.engadget.com/2314584/jensen-huang-is-out-as-nvidia-ceo/",
+      "source": "Engadget",
       "tag": "Big story",
-      "note": "Nvidia's board may meet as soon as today to decide whether to remove its longtime CEO after a scandal. Nvidia makes the chips behind most AI, and its stock fell sharply after hours."
+      "note": "Nvidia's founder resigned this morning after a scandal over affairs, and the company's finance chief, Colette Kress, is filling in as CEO. Nvidia makes the chips behind most AI and is worth more than $4 trillion."
     },
     {
       "title": "Google brings the Gemini app to Apple CarPlay",
@@ -24,25 +24,25 @@
       "note": "Amazon's early Black Friday sale has a 4-pack of AirTag 2 for $70 and AirPods Pro 3 for $199. Some M5 MacBook Airs are $250 off too."
     },
     {
-      "title": "United won't let your AI agent book your flight",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "source": "The Verge",
+      "title": "United is restricting AI agents from booking flights",
+      "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/",
+      "source": "Engadget",
       "tag": "AI",
-      "note": "AI assistants can still look up United flights for you, but the airline is blocking them from buying tickets. You'll have to finish the purchase yourself."
+      "note": "AI assistants can still look up United flights, but the airline says a real person has to finish the booking. It worries about security and rules like the bag safety questions only a human can answer."
     },
     {
-      "title": "Toyota's Scion is back with a 25-mph kei truck",
-      "url": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
-      "source": "The Verge",
+      "title": "Toyota brings back Scion with a tiny 25-mph kei truck",
+      "url": "https://arstechnica.com/cars/2026/11/toyota-resurrects-scion-with-right-hand-drive-kei-trucks/",
+      "source": "Ars Technica",
       "tag": "Cars",
-      "note": "The Scion name returns on a tiny Indiana-built work truck that follows the same low-speed rules as golf carts. A fleet pilot for farms and campuses starts in 2027."
+      "note": "The little KEI-01 is a low-speed work truck, like a street-legal golf cart with a 600-pound bed and all-wheel drive. It will be put together in Indiana and sold to fleets like farms and campuses starting in 2027."
     },
     {
-      "title": "Ring's camera drone won't have manual controls",
-      "url": "https://www.theverge.com/tech/1031817/ring-drone-cam-manual-flight-controls",
-      "source": "The Verge",
+      "title": "Google's new smart glasses arrive next month",
+      "url": "https://www.cnet.com/tech/google-samsung-intelligent-eyewear-warby-parker-gentle-monster-launch-date-hands-on/",
+      "source": "CNET",
       "tag": "Fun",
-      "note": "Amazon's home security drone crashed twice during a CBS demo. When it ships in January, it will only fly preset routes around your house."
+      "note": "Warby Parker and Gentle Monster frames with Google's Gemini built in go on sale December 10, starting at $395. CNET tried them and loved the live translation that speaks other languages into your ear."
     },
     {
       "title": "Apple's new holiday ad features the MacBook Neo",
@@ -50,6 +50,13 @@
       "source": "9to5Mac",
       "tag": "Apple",
       "note": "A short, sweet film about a kid who turns her drawings into a cartoon. Watch for a cameo from an old iPhone 3GS."
+    },
+    {
+      "title": "Apple is closing its Support Community forum on November 20",
+      "url": "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/",
+      "source": "Engadget",
+      "tag": "Apple",
+      "note": "The user forum that often pops up when you search for an iPhone problem will stop taking new questions. Old answers stay readable, and Apple points people to its official support site instead."
     }
   ]
 }
