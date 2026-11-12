@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Rick's Morning Tech News</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --card: #ffffff;
+    --ink: #1f2933;
+    --muted: #5b6672;
+    --accent: #0f766e;
+    --accent-soft: #e6f4f1;
+    --line: #e4e0d8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 32px 40px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px; border-bottom: 3px solid var(--accent); padding-bottom: 14px; margin-bottom: 22px; }
+  .date { font-size: 2.1rem; font-weight: 700; margin: 0; letter-spacing: -0.5px; }
+  .greeting { font-size: 1.15rem; color: var(--muted); margin: 4px 0 0; }
+  .stale { display: none; margin-top: 8px; font-size: 0.95rem; color: #92400e; background: #fef3c7; border-radius: 8px; padding: 4px 10px; width: fit-content; }
+  .brand { font-weight: 700; color: var(--accent); font-size: 1.05rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 18px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 18px 20px 16px; display: flex; flex-direction: column; gap: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: box-shadow .15s, transform .15s;
+  }
+  .card:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.08); transform: translateY(-2px); }
+  .meta { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; }
+  .tag { background: var(--accent-soft); color: var(--accent); font-weight: 700; border-radius: 999px; padding: 2px 10px; text-transform: uppercase; letter-spacing: .4px; font-size: 0.75rem; }
+  .tag.big { background: #fde8e8; color: #b42318; }
+  .source { color: var(--muted); font-weight: 600; }
+  .card h2 { font-size: 1.25rem; line-height: 1.3; margin: 0; }
+  .card h2 a { color: var(--ink); text-decoration: none; }
+  .card h2 a:hover { color: var(--accent); text-decoration: underline; }
+  .note { margin: 0; color: #333d47; font-size: 1rem; }
+  footer { margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--line); }
+  footer h3 { margin: 0 0 10px; font-size: 1rem; color: var(--muted); font-weight: 600; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; }
+  .links a { background: var(--card); border: 1px solid var(--line); color: var(--accent); text-decoration: none; font-weight: 600; padding: 8px 14px; border-radius: 10px; font-size: 0.95rem; }
+  .links a:hover { background: var(--accent-soft); }
+  .msg { color: var(--muted); font-size: 1.1rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1 class="date" id="date">Good morning</h1>
+      <p class="greeting" id="greeting">Grab your coffee, here's what's new in tech.</p>
+      <div class="stale" id="stale"></div>
+    </div>
+    <div class="brand">☕ Morning Tech News</div>
+  </header>
+
+  <main class="grid" id="stories"><p class="msg">Loading today's stories...</p></main>
+
+  <footer>
+    <h3>Your favorite sites</h3>
+    <nav class="links">
+      <a href="https://www.techmeme.com" target="_blank" rel="noopener">Techmeme</a>
+      <a href="https://www.theverge.com" target="_blank" rel="noopener">The Verge</a>
+      <a href="https://www.engadget.com" target="_blank" rel="noopener">Engadget</a>
+      <a href="https://9to5mac.com" target="_blank" rel="noopener">9to5Mac</a>
+      <a href="https://www.cnet.com/tech/" target="_blank" rel="noopener">CNET</a>
+      <a href="https://arstechnica.com" target="_blank" rel="noopener">Ars Technica</a>
+      <a href="https://techcrunch.com" target="_blank" rel="noopener">TechCrunch</a>
+    </nav>
+  </footer>
+</div>
+<script>
+(function () {
+  var DAY = { weekday: "long", month: "short", day: "numeric" };
+  function fmt(d, opts) { return d.toLocaleDateString("en-US", opts || DAY); }
+  function parseLocal(s) { var p = String(s).split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function ymd(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  var today = new Date();
+  document.getElementById("date").textContent = fmt(today);
+
+  fetch("stories.json?v=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) {
+      if (data.greeting) document.getElementById("greeting").textContent = data.greeting;
+      if (data.date && data.date !== ymd(today)) {
+        var s = document.getElementById("stale");
+        s.textContent = "Stories from " + fmt(parseLocal(data.date)) + ". Today's batch isn't in yet.";
+        s.style.display = "block";
+      }
+      var box = document.getElementById("stories");
+      box.innerHTML = "";
+      (data.items || []).forEach(function (it) {
+        var card = el("article", "card");
+        var meta = el("div", "meta");
+        if (it.tag) meta.appendChild(el("span", "tag" + (/big/i.test(it.tag) ? " big" : ""), it.tag));
+        if (it.source) meta.appendChild(el("span", "source", it.source));
+        card.appendChild(meta);
+        var h = el("h2");
+        var a = el("a", null, it.title);
+        a.href = it.url; a.target = "_blank"; a.rel = "noopener";
+        h.appendChild(a); card.appendChild(h);
+        if (it.note) card.appendChild(el("p", "note", it.note));
+        box.appendChild(card);
+      });
+    })
+    .catch(function () {
+      document.getElementById("stories").innerHTML = '<p class="msg">Couldn\'t load today\'s stories. Try refreshing, or use the links below.</p>';
+    });
+})();
+</script>
+</body>
+</html>

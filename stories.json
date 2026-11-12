@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-12",
+  "greeting": "Good morning, Rick! Grab your coffee, here's what's new in tech today.",
+  "items": [
+    {
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "source": "The Verge",
+      "tag": "Big story",
+      "note": "Nvidia's board may meet as soon as today to decide whether to remove its longtime CEO after a scandal. Nvidia makes the chips behind most AI, and its stock fell sharply after hours."
+    },
+    {
+      "title": "Google brings the Gemini app to Apple CarPlay",
+      "url": "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/",
+      "source": "Engadget",
+      "tag": "AI",
+      "note": "You can now talk to Google's Gemini assistant hands-free on your car's screen. Just update the Gemini app on your iPhone and it shows up in CarPlay."
+    },
+    {
+      "title": "AirTag 2, AirPods and MacBook Air deals",
+      "url": "https://9to5mac.com/2026/11/11/deals-airtag-2-magic-mouse-trackpad-macbook-air/",
+      "source": "9to5Mac",
+      "tag": "Deals",
+      "note": "Amazon's early Black Friday sale has a 4-pack of AirTag 2 for $70 and AirPods Pro 3 for $199. Some M5 MacBook Airs are $250 off too."
+    },
+    {
+      "title": "United won't let your AI agent book your flight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "source": "The Verge",
+      "tag": "AI",
+      "note": "AI assistants can still look up United flights for you, but the airline is blocking them from buying tickets. You'll have to finish the purchase yourself."
+    },
+    {
+      "title": "Toyota's Scion is back with a 25-mph kei truck",
+      "url": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
+      "source": "The Verge",
+      "tag": "Cars",
+      "note": "The Scion name returns on a tiny Indiana-built work truck that follows the same low-speed rules as golf carts. A fleet pilot for farms and campuses starts in 2027."
+    },
+    {
+      "title": "Ring's camera drone won't have manual controls",
+      "url": "https://www.theverge.com/tech/1031817/ring-drone-cam-manual-flight-controls",
+      "source": "The Verge",
+      "tag": "Fun",
+      "note": "Amazon's home security drone crashed twice during a CBS demo. When it ships in January, it will only fly preset routes around your house."
+    },
+    {
+      "title": "Apple's new holiday ad features the MacBook Neo",
+      "url": "https://9to5mac.com/2026/11/12/heres-apples-new-ad-for-the-holiday-season-featuring-macbook-neo/",
+      "source": "9to5Mac",
+      "tag": "Apple",
+      "note": "A short, sweet film about a kid who turns her drawings into a cartoon. Watch for a cameo from an old iPhone 3GS."
+    }
+  ]
+}
