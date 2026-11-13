@@ -1,62 +1,62 @@
 {
-  "date": "2026-11-12",
-  "greeting": "Good morning, Rick! Grab your coffee, here's what's new in tech today.",
+  "date": "2026-11-13",
+  "greeting": "Good morning, Rick! Happy Friday the 13th, here's what's new in tech today.",
   "items": [
     {
-      "title": "Jensen Huang is out as Nvidia CEO",
-      "url": "https://www.engadget.com/2314584/jensen-huang-is-out-as-nvidia-ceo/",
-      "source": "Engadget",
+      "title": "Starship set for a historic test flight from Texas today",
+      "url": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+      "source": "Ars Technica",
       "tag": "Big story",
-      "note": "Nvidia's founder resigned this morning after a scandal over affairs, and the company's finance chief, Colette Kress, is filling in as CEO. Nvidia makes the chips behind most AI and is worth more than $4 trillion."
+      "note": "SpaceX plans to launch Starship from South Texas this afternoon, with the window opening at 4:45 PM Central. For the first time it will try to catch both the booster and the ship back at the launch site, the ship landing on Saturday after about 14 trips around the Earth."
     },
     {
-      "title": "Google brings the Gemini app to Apple CarPlay",
-      "url": "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/",
-      "source": "Engadget",
-      "tag": "AI",
-      "note": "You can now talk to Google's Gemini assistant hands-free on your car's screen. Just update the Gemini app on your iPhone and it shows up in CarPlay."
+      "title": "iOS 27's Find My lets you share your location for a set time",
+      "url": "https://9to5mac.com/2026/11/12/ios-27s-find-my-app-adds-convenient-feature-ive-long-wished-for/",
+      "source": "9to5Mac",
+      "tag": "Apple",
+      "note": "Find My on your iPhone now has a Custom option, so you can share your location for a few hours, a few days, or until a date you pick. Handy for a trip or a game day, and it shuts off by itself so you don't have to remember."
     },
     {
-      "title": "AirTag 2, AirPods and MacBook Air deals",
-      "url": "https://9to5mac.com/2026/11/11/deals-airtag-2-magic-mouse-trackpad-macbook-air/",
+      "title": "Early Black Friday Apple deals: AirTag 2 at an all-time low",
+      "url": "https://9to5mac.com/2026/11/12/deals-homeview-m5-ipad-pro-magic-keyboard-airtag-2/",
       "source": "9to5Mac",
       "tag": "Deals",
-      "note": "Amazon's early Black Friday sale has a 4-pack of AirTag 2 for $70 and AirPods Pro 3 for $199. Some M5 MacBook Airs are $250 off too."
+      "note": "Amazon has a 4-pack of AirTag 2 for $70 (about $17.50 each) and AirPods Pro 3 for $199. Official Apple Watch bands start around $32 too."
     },
     {
-      "title": "United is restricting AI agents from booking flights",
-      "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/",
+      "title": "Google rolls out Gemini 4 Hydrogen, a faster and more accurate AI",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "source": "Ars Technica",
+      "tag": "AI",
+      "note": "Google's new everyday AI model is much faster and makes up facts far less often, according to Google. It is now powering Google Search answers for everyone, while the Gemini app version is for paid subscribers for now."
+    },
+    {
+      "title": "Ex-Nvidia CEO Jensen Huang will testify before Congress",
+      "url": "https://www.engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/",
       "source": "Engadget",
       "tag": "AI",
-      "note": "AI assistants can still look up United flights, but the airline says a real person has to finish the booking. It worries about security and rules like the bag safety questions only a human can answer."
+      "note": "A follow-up to yesterday's big story: Huang agreed to answer lawmakers' questions before Thanksgiving, likely behind closed doors. Colette Kress is running Nvidia while the company looks for a permanent CEO."
     },
     {
-      "title": "Toyota brings back Scion with a tiny 25-mph kei truck",
-      "url": "https://arstechnica.com/cars/2026/11/toyota-resurrects-scion-with-right-hand-drive-kei-trucks/",
-      "source": "Ars Technica",
-      "tag": "Cars",
-      "note": "The little KEI-01 is a low-speed work truck, like a street-legal golf cart with a 600-pound bed and all-wheel drive. It will be put together in Indiana and sold to fleets like farms and campuses starting in 2027."
-    },
-    {
-      "title": "Google's new smart glasses arrive next month",
-      "url": "https://www.cnet.com/tech/google-samsung-intelligent-eyewear-warby-parker-gentle-monster-launch-date-hands-on/",
+      "title": "A flying car you could learn to pilot in 5 minutes",
+      "url": "https://www.cnet.com/roadshow/xpeng-aridge-land-aircraft-carrier-flying-car/",
       "source": "CNET",
-      "tag": "Fun",
-      "note": "Warby Parker and Gentle Monster frames with Google's Gemini built in go on sale December 10, starting at $395. CNET tried them and loved the live translation that speaks other languages into your ear."
+      "tag": "Cars",
+      "note": "Xpeng's Aridge is a big van that carries a two-seat drone in the back, which folds out and flies about 19 miles. It costs around $300,000, already has 17,000 orders overseas, and US approval work starts next year."
     },
     {
-      "title": "Apple's new holiday ad features the MacBook Neo",
-      "url": "https://9to5mac.com/2026/11/12/heres-apples-new-ad-for-the-holiday-season-featuring-macbook-neo/",
+      "title": "American Cancer Society now urges routine prostate cancer screening",
+      "url": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/",
+      "source": "Ars Technica",
+      "tag": "Science/Space",
+      "note": "New guidelines say men at average risk should get a PSA blood test every two years from 50 to 69, and men 70 to 74 should talk it over with their doctor. Worth bringing up at your next checkup."
+    },
+    {
+      "title": "New Apple TV comedy with Elizabeth Banks and Ted Danson",
+      "url": "https://9to5mac.com/2026/11/12/new-apple-tv-comedy-starring-elizabeth-banks-ted-danson-coming-soon/",
       "source": "9to5Mac",
-      "tag": "Apple",
-      "note": "A short, sweet film about a kid who turns her drawings into a cartoon. Watch for a cameo from an old iPhone 3GS."
-    },
-    {
-      "title": "Apple is closing its Support Community forum on November 20",
-      "url": "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/",
-      "source": "Engadget",
-      "tag": "Apple",
-      "note": "The user forum that often pops up when you search for an iPhone problem will stop taking new questions. Old answers stay readable, and Apple points people to its official support site instead."
+      "tag": "Fun",
+      "note": "She's Fine follows a newly divorced mom who gets roped into her dad's lively retirement community, with Tom Selleck as a guest star. It premieres January 27 with two episodes, a fun one to put on the list with Jen."
     }
   ]
 }
