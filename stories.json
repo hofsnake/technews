@@ -1,62 +1,62 @@
 {
-  "date": "2026-11-14",
-  "greeting": "Good morning, Rick! Happy Saturday. Grab a coffee, there's a Texas rocket to watch this afternoon.",
-  "items": [
-    {
-      "title": "FAA lets flights resume after an hours-long nationwide ground stop",
-      "url": "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/",
-      "source": "Engadget",
-      "tag": "Big story",
-      "note": "Every flight in the US was halted for hours Friday afternoon, stranding millions of travelers. Transportation Secretary Sean Duffy blamed overloaded, decades-old air traffic control equipment, and flights resumed Friday night."
-    },
-    {
-      "title": "Starship flight 15 reaches orbit, with a first-ever ship catch possible today",
-      "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
-      "source": "Ars Technica",
-      "tag": "Science/Space",
-      "note": "SpaceX's giant rocket launched from South Texas Friday and dropped off 26 Starlink satellites. If the ship passes its health checks, SpaceX will try to catch it with the launch tower around 3:15 PM Central today."
-    },
-    {
-      "title": "iOS 27.2 has two CarPlay improvements",
-      "url": "https://9to5mac.com/2026/11/13/ios-27-2-has-two-carplay-improvements-heres-whats-new/",
-      "source": "9to5Mac",
-      "tag": "Apple",
-      "note": "If you listen to podcasts in the car, Apple Podcasts now has easy New Episodes and Continue Playing rows. Siri in CarPlay also got smarter and can remember things it told you before."
-    },
-    {
-      "title": "Early Black Friday Apple deals: AirTag 2 at an all-time low, AirPods Pro 3 $50 off",
-      "url": "https://9to5mac.com/2026/11/13/deals-apple-tv-4k-discount-airpods-pro-3-airtag-2/",
-      "source": "9to5Mac",
-      "tag": "Deals",
-      "note": "Amazon's early Black Friday sale has AirTag 2 down to $17.50 each and $50 off AirPods Pro 3, plus Apple Watch and MacBook Air discounts. Good stocking stuffer territory."
-    },
-    {
-      "title": "ChatGPT's new Wallet lets AI agents shop and check out for you",
-      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "source": "TechCrunch",
-      "tag": "AI",
-      "note": "OpenAI now lets ChatGPT pick out items and finish the purchase for you, after you approve with Face ID or a fingerprint. For now it's only for a small group of paying Pro users in the US."
-    },
-    {
-      "title": "Slate Auto's 'Screenless GPS' is a good old road atlas",
-      "url": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/",
-      "source": "Ars Technica",
-      "tag": "Cars",
-      "note": "Slate's bare-bones electric pickup, aimed at under $25,000, skips the big touchscreen. Its answer to getting lost is a spiral-bound paper map, and Ars actually reviewed it."
-    },
-    {
-      "title": "James Webb telescope finds ice older than the star it orbits",
-      "url": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
-      "source": "Ars Technica",
-      "tag": "Science/Space",
-      "note": "Webb spotted water and carbon dioxide ice around a young star 64 light-years away, mixed much like the comets in our own solar system. It hints that the ingredients for watery planets may be common."
-    },
-    {
-      "title": "After 451,000 folds, the iPhone Duo's hinge is starting to fail",
-      "url": "https://www.cnet.com/tech/mobile/iphone-duo-fold-test-3-weeks-starting-fail/",
-      "source": "CNET",
-      "tag": "Fun",
-      "note": "CNET built a machine to fold Apple's new foldable iPhone around the clock for three weeks. It still works, but now it no longer opens all the way flat."
-    }
-  ]
+ "date": "2026-11-15",
+ "greeting": "Good morning, Rick! Happy Sunday, grab a coffee before the Cowboys kick off this afternoon.",
+ "items": [
+  {
+   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "source": "TechCrunch",
+   "tag": "Big story",
+   "note": "The Nvidia shakeup keeps rolling. More than 115,000 people, including thousands of Nvidia employees and Elon Musk, signed a petition asking the board to bring back ousted CEO Jensen Huang while an investigation plays out."
+  },
+  {
+   "title": "SpaceX successfully catches Starship after launch for the first time",
+   "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
+   "source": "Engadget",
+   "tag": "Science/Space",
+   "note": "SpaceX caught the top half of its giant Starship rocket with the launch tower's arms in South Texas, a first. The booster wasn't so lucky, though, and ended up exploding near the Gulf."
+  },
+  {
+   "title": "Got an iPhone Duo? These 9 settings make it easier to use",
+   "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+   "source": "TechCrunch",
+   "tag": "Apple",
+   "note": "Apple's foldable iPhone uses Touch ID instead of Face ID, and these simple tweaks, like registering extra fingerprints, make it a lot easier to live with. Handy if you're eyeing one or already have one."
+  },
+  {
+   "title": "Early Black Friday Apple deals: AirPods, AirTag 2, MacBook Air, Apple Pencil, Mac mini, more",
+   "url": "https://9to5mac.com/2026/11/14/early-black-friday-apple-deals-apple-tv-4k-airpods/",
+   "source": "9to5Mac",
+   "tag": "Deals",
+   "note": "Black Friday prices are showing up early, including AirTag 2 for $17.50, $50 off AirPods Pro 3, and big drops on MacBook Air. A good list to skim if you're starting holiday shopping."
+  },
+  {
+   "title": "Tesla opens Cybercab pre-orders 'for personal use,' with geo restrictions and a $299 monthly fee",
+   "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+   "source": "TechCrunch",
+   "tag": "Cars",
+   "note": "Tesla's self-driving, no-steering-wheel Cybercab is up for pre-order at $29,990, but delivery is only in a few Texas cities and it costs $299 a month to run. Even Musk says that fee is too high."
+  },
+  {
+   "title": "How to get better results from Google Gemini",
+   "url": "https://www.engadget.com/2312834/how-to-get-better-results-google-gemini/",
+   "source": "Engadget",
+   "tag": "AI",
+   "note": "Simple tips for getting better answers out of Google's AI helper, mostly by giving it clear, detailed instructions and connecting the apps you already use."
+  },
+  {
+   "title": "Transportation secretary blames 'routine' equipment upgrade for grounding flights nationwide",
+   "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+   "source": "TechCrunch",
+   "tag": "Fun",
+   "note": "Friday's nationwide flight ground stop came down to a cable upgrade where one overloaded router swamped a key FAA system. A good reminder to check your flight status before heading to the airport."
+  },
+  {
+   "title": "This Sony patent would add a credit card reader to your PlayStation controller",
+   "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/",
+   "source": "Engadget",
+   "tag": "Fun",
+   "note": "Sony has an idea for a PlayStation controller that grabs payment info from your nearby phone, so buying games takes one less step. The grandkids might love it, your wallet maybe less so."
+  }
+ ]
 }
