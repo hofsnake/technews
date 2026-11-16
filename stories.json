@@ -1,62 +1,62 @@
 {
- "date": "2026-11-15",
- "greeting": "Good morning, Rick! Happy Sunday, grab a coffee before the Cowboys kick off this afternoon.",
+ "date": "2026-11-16",
+ "greeting": "Good morning, Rick! Happy Monday, here's a quick cup of tech news to start the week.",
  "items": [
   {
-   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-   "source": "TechCrunch",
+   "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+   "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+   "source": "Ars Technica",
    "tag": "Big story",
-   "note": "The Nvidia shakeup keeps rolling. More than 115,000 people, including thousands of Nvidia employees and Elon Musk, signed a petition asking the board to bring back ousted CEO Jensen Huang while an investigation plays out."
+   "note": "United Launch Alliance's Vulcan rocket failed minutes after liftoff from Florida on Sunday, taking 40 Amazon internet satellites down with it. It's the company's first total mission failure in 20 years and could ground the rocket for a while."
   },
   {
-   "title": "SpaceX successfully catches Starship after launch for the first time",
-   "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
-   "source": "Engadget",
-   "tag": "Science/Space",
-   "note": "SpaceX caught the top half of its giant Starship rocket with the launch tower's arms in South Texas, a first. The booster wasn't so lucky, though, and ended up exploding near the Gulf."
-  },
-  {
-   "title": "Got an iPhone Duo? These 9 settings make it easier to use",
-   "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+   "title": "Apple launches new app to study how people use AI for health",
+   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
    "source": "TechCrunch",
-   "tag": "Apple",
-   "note": "Apple's foldable iPhone uses Touch ID instead of Face ID, and these simple tweaks, like registering extra fingerprints, make it a lot easier to live with. Handy if you're eyeing one or already have one."
+   "tag": "AI",
+   "note": "Apple is inviting iPhone 15 and newer owners to join a study app that answers everyday health questions using trusted medical journals. It's a more careful take on asking a chatbot about your health."
   },
   {
-   "title": "Early Black Friday Apple deals: AirPods, AirTag 2, MacBook Air, Apple Pencil, Mac mini, more",
-   "url": "https://9to5mac.com/2026/11/14/early-black-friday-apple-deals-apple-tv-4k-airpods/",
+   "title": "Make iOS 27 Less Glassy and Siri Less Clingy With These Settings",
+   "url": "https://www.cnet.com/tech/services-and-software/how-to-change-the-most-annoying-ios-27-settings-on-your-iphone/",
+   "source": "CNET",
+   "tag": "Apple",
+   "note": "If the see-through Liquid Glass look makes your iPhone harder to read, a quick setting can make it more solid. The guide also shows how to control what Siri saves and when video subtitles pop up."
+  },
+  {
+   "title": "AirPods Pro 3 hit Black Friday pricing early at $179 (Reg. $249)",
+   "url": "https://9to5mac.com/2026/11/15/airpods-pro-3-hit-black-friday-pricing-early-at-179-reg-249/",
    "source": "9to5Mac",
    "tag": "Deals",
-   "note": "Black Friday prices are showing up early, including AirTag 2 for $17.50, $50 off AirPods Pro 3, and big drops on MacBook Air. A good list to skim if you're starting holiday shopping."
+   "note": "Amazon dropped AirPods Pro 3 to $179, about $70 off and close to the lowest price ever. A nice early stocking stuffer if anyone on your list wants new earbuds."
   },
   {
-   "title": "Tesla opens Cybercab pre-orders 'for personal use,' with geo restrictions and a $299 monthly fee",
-   "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+   "title": "Zoox robotaxis are now on the Uber app in Las Vegas",
+   "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/",
    "source": "TechCrunch",
    "tag": "Cars",
-   "note": "Tesla's self-driving, no-steering-wheel Cybercab is up for pre-order at $29,990, but delivery is only in a few Texas cities and it costs $299 a month to run. Even Musk says that fee is too high."
+   "note": "Amazon's boxy, driverless Zoox robotaxis can now be booked right in the Uber app in Las Vegas. Uber plans to add them in Los Angeles next year too."
   },
   {
-   "title": "How to get better results from Google Gemini",
-   "url": "https://www.engadget.com/2312834/how-to-get-better-results-google-gemini/",
+   "title": "How one 13-year-old is helping solve a huge solar panel limitation",
+   "url": "https://www.engadget.com/2313927/13-year-old-solving-solar-panel-limitation/",
    "source": "Engadget",
-   "tag": "AI",
-   "note": "Simple tips for getting better answers out of Google's AI helper, mostly by giving it clear, detailed instructions and connecting the apps you already use."
+   "tag": "Science/Space",
+   "note": "Tired of moving his family's solar Christmas lights, a seventh grader built a water and gravity powered tracker that turns the panel toward the sun. It cost under $25 and made about 20 percent more power."
   },
   {
-   "title": "Transportation secretary blames 'routine' equipment upgrade for grounding flights nationwide",
-   "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+   "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+   "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
    "source": "TechCrunch",
    "tag": "Fun",
-   "note": "Friday's nationwide flight ground stop came down to a cable upgrade where one overloaded router swamped a key FAA system. A good reminder to check your flight status before heading to the airport."
+   "note": "Saturday Night Live packed Musk, Zuckerberg, Altman and more into one sketch, with host John Mulaney as a CIA agent explaining why they should be suspicious of sudden admirers. Worth a look for a laugh."
   },
   {
-   "title": "This Sony patent would add a credit card reader to your PlayStation controller",
-   "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/",
-   "source": "Engadget",
+   "title": "No, the World Won't Shut Down on Nov. 17. What the Blackout Rumors Get Wrong",
+   "url": "https://www.cnet.com/news/social-media/blackout-rumors-nov-17-emergency-alert-system-prepare-supplies/",
+   "source": "CNET",
    "tag": "Fun",
-   "note": "Sony has an idea for a PlayStation controller that grabs payment info from your nearby phone, so buying games takes one less step. Convenient, though maybe a little too easy on the wallet."
+   "note": "There's a nationwide Emergency Alert System test Tuesday around 1:20 PM Central, and social media is spinning it into doomsday rumors. Experts say it's just a routine test, so no need to worry."
   }
  ]
 }
