@@ -1,62 +1,62 @@
 {
- "date": "2026-11-16",
- "greeting": "Good morning, Rick! Happy Monday, here's a quick cup of tech news to start the week.",
- "items": [
-  {
-   "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
-   "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
-   "source": "Ars Technica",
-   "tag": "Big story",
-   "note": "United Launch Alliance's Vulcan rocket failed minutes after liftoff from Florida on Sunday, taking 40 Amazon internet satellites down with it. It's the company's first total mission failure in 20 years and could ground the rocket for a while."
-  },
-  {
-   "title": "Apple launches new app to study how people use AI for health",
-   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-   "source": "TechCrunch",
-   "tag": "AI",
-   "note": "Apple is inviting iPhone 15 and newer owners to join a study app that answers everyday health questions using trusted medical journals. It's a more careful take on asking a chatbot about your health."
-  },
-  {
-   "title": "Make iOS 27 Less Glassy and Siri Less Clingy With These Settings",
-   "url": "https://www.cnet.com/tech/services-and-software/how-to-change-the-most-annoying-ios-27-settings-on-your-iphone/",
-   "source": "CNET",
-   "tag": "Apple",
-   "note": "If the see-through Liquid Glass look makes your iPhone harder to read, a quick setting can make it more solid. The guide also shows how to control what Siri saves and when video subtitles pop up."
-  },
-  {
-   "title": "AirPods Pro 3 hit Black Friday pricing early at $179 (Reg. $249)",
-   "url": "https://9to5mac.com/2026/11/15/airpods-pro-3-hit-black-friday-pricing-early-at-179-reg-249/",
-   "source": "9to5Mac",
-   "tag": "Deals",
-   "note": "Amazon dropped AirPods Pro 3 to $179, about $70 off and close to the lowest price ever. A nice early stocking stuffer if anyone on your list wants new earbuds."
-  },
-  {
-   "title": "Zoox robotaxis are now on the Uber app in Las Vegas",
-   "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/",
-   "source": "TechCrunch",
-   "tag": "Cars",
-   "note": "Amazon's boxy, driverless Zoox robotaxis can now be booked right in the Uber app in Las Vegas. Uber plans to add them in Los Angeles next year too."
-  },
-  {
-   "title": "How one 13-year-old is helping solve a huge solar panel limitation",
-   "url": "https://www.engadget.com/2313927/13-year-old-solving-solar-panel-limitation/",
-   "source": "Engadget",
-   "tag": "Science/Space",
-   "note": "Tired of moving his family's solar Christmas lights, a seventh grader built a water and gravity powered tracker that turns the panel toward the sun. It cost under $25 and made about 20 percent more power."
-  },
-  {
-   "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
-   "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
-   "source": "TechCrunch",
-   "tag": "Fun",
-   "note": "Saturday Night Live packed Musk, Zuckerberg, Altman and more into one sketch, with host John Mulaney as a CIA agent explaining why they should be suspicious of sudden admirers. Worth a look for a laugh."
-  },
-  {
-   "title": "No, the World Won't Shut Down on Nov. 17. What the Blackout Rumors Get Wrong",
-   "url": "https://www.cnet.com/news/social-media/blackout-rumors-nov-17-emergency-alert-system-prepare-supplies/",
-   "source": "CNET",
-   "tag": "Fun",
-   "note": "There's a nationwide Emergency Alert System test Tuesday around 1:20 PM Central, and social media is spinning it into doomsday rumors. Experts say it's just a routine test, so no need to worry."
-  }
- ]
+  "date": "2026-11-17",
+  "greeting": "Good morning, Rick! Coffee's on, and Voyager 1 is about to hit a record far, far away.",
+  "items": [
+    {
+      "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+      "source": "Ars Technica",
+      "tag": "Big story",
+      "note": "Days after resigning in a scandal, the former Nvidia boss is weighing a comeback, and his Silicon Valley friends are lobbying the board to bring him back. Nvidia makes the chips behind most AI, so this drama matters well beyond one company."
+    },
+    {
+      "title": "You can now ask Siri AI questions about your health data",
+      "url": "https://9to5mac.com/2026/11/16/siri-ai-health-app-questions-ios-27/",
+      "source": "9to5Mac",
+      "tag": "Apple",
+      "note": "In the newest iOS 27.3 beta, Siri can answer things like your step count, heart rate, or Activity rings progress, and even log medications. It should reach regular iPhones when 27.3 is released."
+    },
+    {
+      "title": "Apple Watch Series 12 hits its best price ever, AirPods Pro 3 drop even lower",
+      "url": "https://9to5mac.com/2026/11/16/deals-apple-watch-series-12-airpods-pro-3-iphone-duo-charger/",
+      "source": "9to5Mac",
+      "tag": "Deals",
+      "note": "Amazon's early Black Friday sale has the whole Apple Watch Series 12 lineup at record lows starting at $329, the Apple Watch SE 3 from $199, and AirPods Pro 3 at $70 off."
+    },
+    {
+      "title": "Google Maps' chatbot can now find appointments and call to book them for you",
+      "url": "https://www.engadget.com/2318186/google-maps-chatbot-can-find-appointments-and-call-to-book-them-for-you/",
+      "source": "Engadget",
+      "tag": "AI",
+      "note": "Ask Maps can look for open slots for things like a haircut or car maintenance, and even phone the business for you. It can also find open tables at restaurants you've saved."
+    },
+    {
+      "title": "Mercedes' clever new driving assist handles complex traffic like a champ",
+      "url": "https://arstechnica.com/cars/2026/11/mercedes-clever-new-driving-assist-handles-complex-traffic-like-a-champ/",
+      "source": "Ars Technica",
+      "tag": "Cars",
+      "note": "Ars got behind the wheel of Drive Assist Pro on the busy streets of San Francisco and came away impressed. It comes to US Mercedes owners in 2027, with the driver still in charge."
+    },
+    {
+      "title": "Voyager 1 will be a full light-day from Earth on Wednesday",
+      "url": "https://www.cnet.com/science/space/voyager-1-passes-one-light-day/",
+      "source": "CNET",
+      "tag": "Science/Space",
+      "note": "Launched in 1977 for a five-year mission, Voyager 1 becomes the first human-made object so far away that its signals take a full 24 hours to reach us. That's about 16.1 billion miles."
+    },
+    {
+      "title": "Robert Pattinson is the new James Bond",
+      "url": "https://www.cnet.com/culture/entertainment/robert-pattinson-named-james-bond/",
+      "source": "CNET",
+      "tag": "Fun",
+      "note": "Amazon MGM Studios named the Batman and Twilight star as the next 007, ending the long search to replace Daniel Craig. Let the debate over whether he's a good pick begin."
+    },
+    {
+      "title": "Your microwave can poach an egg better than you'd expect",
+      "url": "https://www.cnet.com/home/kitchen-and-household/the-1-minute-microwave-egg-trick-that-changed-my-mornings-forever/",
+      "source": "CNET",
+      "tag": "Fun",
+      "note": "A small bowl of cold water and about a minute in the microwave gives you a poached egg with a firm white and soft yolk. An easy breakfast upgrade with almost no cleanup."
+    }
+  ]
 }
