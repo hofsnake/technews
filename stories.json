@@ -1,55 +1,62 @@
 {
-  "date": "2026-11-18",
-  "greeting": "Good morning, Rick! Voyager 1 just crossed a record distance from home, so grab your coffee and enjoy the ride.",
+  "date": "2026-11-19",
+  "greeting": "Good morning, Rick! Amazon's Black Friday sale just kicked off, so pour that coffee and see what's worth a look.",
   "items": [
     {
-      "title": "Voyager 1 Hits One Light-Day From Earth",
-      "url": "https://www.cnet.com/science/space/voyager-1-passes-one-light-day/",
-      "source": "CNET",
+      "title": "White House says recent bank, FAA, Microsoft, and Apple outages were not an attack",
+      "url": "https://9to5mac.com/2026/11/18/banks-faa-microsoft-apple-no-systemic-attack-on-the-us-says-white-house/",
+      "source": "9to5Mac",
       "tag": "Big story",
-      "note": "Launched in 1977, NASA's Voyager 1 crossed one light-day from Earth early this morning, about 16.1 billion miles away. A radio signal now takes a full 24 hours to reach it, and it was only supposed to last about five years."
+      "note": "After a string of big outages hit Microsoft, the FAA, Chase, and Apple, people wondered if the country was under cyberattack. The White House says no, each one had its own separate cause."
     },
     {
-      "title": "AirPods Pro 3 keep getting better, here's what's new in iOS 27",
-      "url": "https://9to5mac.com/2026/11/17/airpods-pro-3-keep-getting-better-heres-whats-new-ios-27/",
-      "source": "9to5Mac",
-      "tag": "Apple",
-      "note": "iOS 27 lets you set your own sound with a custom equalizer, and AirPods Pro 3 can now share your heart rate with GymKit treadmills, bikes, and ellipticals. A neat one for a PE guy."
-    },
-    {
-      "title": "Deals: Rare MacBook Neo discounts, Apple Watch Series 12, Nomad Black Friday sale",
-      "url": "https://9to5mac.com/2026/11/17/deals-macbook-neo-apple-watch-nomad-airpods/",
-      "source": "9to5Mac",
-      "tag": "Deals",
-      "note": "Early Black Friday deals are rolling in, with $70 off AirPods Pro 3, the best prices yet on Apple Watch Series 12, and Nomad's sale on iPhone cases and watch bands."
-    },
-    {
-      "title": "You can now see and edit what Google Gemini remembers about you",
-      "url": "https://www.engadget.com/2315475/google-gemini-memory-summary-see-what-remembers-about-you/",
-      "source": "Engadget",
-      "tag": "AI",
-      "note": "Google's Gemini assistant learns little facts about you from your chats. Now you can open its settings, see that list, and fix or delete anything you don't want it to remember."
-    },
-    {
-      "title": "Waymo is pausing all freeway rides after California DMV says the robotaxis are a hazard",
-      "url": "https://www.engadget.com/2319947/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/",
-      "source": "Engadget",
-      "tag": "Cars",
-      "note": "California barred Waymo's driverless cars from freeways after one tried to pass a Highway Patrol car slowing traffic. Waymo has now paused freeway rides in every US city it serves."
-    },
-    {
-      "title": "SpaceX Misses Its Double Catch but Still Makes History by Catching the Starship",
-      "url": "https://www.cnet.com/science/space/spacex-starship-flight-15-double-catch/",
+      "title": "You Need to Download iOS 27.2.1 Now for These Security Fixes",
+      "url": "https://www.cnet.com/tech/services-and-software/ios-27-2-1-bug-security-fixes/",
       "source": "CNET",
-      "tag": "Science/Space",
-      "note": "SpaceX tried to catch both halves of its giant rocket with the launch tower in Boca Chica, Texas. The booster ended up in the Gulf, but catching the Starship itself was a first."
+      "tag": "Apple",
+      "note": "Apple's iOS 27.2.1 update fixes nine issues, including a couple that could expose your personal data. Go to Settings, General, Software Update to grab it."
     },
     {
-      "title": "GTA 6 Review: The Megayacht of Gaming Has Something for Nearly Everyone",
-      "url": "https://www.cnet.com/tech/gaming/gta-6-review/",
+      "title": "Amazon's 2026 Black Friday sale is now live",
+      "url": "https://9to5toys.com/2026/11/19/amazon-2026-black-friday-sale-now-live/",
+      "source": "9to5Toys",
+      "tag": "Deals",
+      "note": "Amazon's official Black Friday sale is live and runs for 12 days, with deals on AirPods Pro 3, Apple Watch Series 12, TVs, and lots more. A good time to knock out some Christmas shopping early."
+    },
+    {
+      "title": "ChatGPT app gains enhanced Live Dictation streaming without 10-minute limit",
+      "url": "https://9to5mac.com/2026/11/18/chatgpt-app-gains-enhanced-live-dictation-streaming-without-10-minute-limit/",
+      "source": "9to5Mac",
+      "tag": "AI",
+      "note": "ChatGPT's talk-to-type feature now shows your words as you speak and no longer cuts you off after 10 minutes. Handy if you'd rather talk than tap on your iPhone."
+    },
+    {
+      "title": "Ford Designed Its Fathom EV Battery Pack to Bend in a Crash, for Safety",
+      "url": "https://www.cnet.com/home/electric-vehicles/ford-fathom-ev-battery-pack-design-crash-safety/",
+      "source": "CNET",
+      "tag": "Cars",
+      "note": "Ford built the battery in its upcoming Fathom electric truck to bend in a crash and soak up side-impact force, instead of being babied like a fragile part. Ford says that makes the truck lighter and safer."
+    },
+    {
+      "title": "Vulcan failure caused by inadequate fuel supply to engines, ULA says",
+      "url": "https://arstechnica.com/space/2026/11/vulcan-failure-caused-by-inadequate-fuel-supply-to-engines-ula-says/",
+      "source": "Ars Technica",
+      "tag": "Science/Space",
+      "note": "ULA says Sunday's Vulcan rocket failure came from a fuel supply problem, not the Blue Origin engines. That's a big relief for Blue Origin and NASA, since the same engines power the New Glenn rocket."
+    },
+    {
+      "title": "The iPhone Duo's hinge is wearing out after 525K folds in CNET's machine",
+      "url": "https://www.cnet.com/tech/mobile/watch-us-fold-the-iphone-duo-thousands-of-times-on-our-weeks-long-livestream/",
       "source": "CNET",
       "tag": "Fun",
-      "note": "The most hyped video game in years launches tomorrow, and CNET says it lives up to the hype with a huge, detailed world to explore."
+      "note": "CNET built a machine that has folded Apple's $1,999 iPhone Duo more than 525,000 times in four weeks, and the hinge is finally starting to wear out. You can watch it live on YouTube."
+    },
+    {
+      "title": "123456 is still the world's most common password",
+      "url": "https://www.cnet.com/tech/services-and-software/unsafe-most-popular-password-123456-nordpass/",
+      "source": "CNET",
+      "tag": "Fun",
+      "note": "For the seventh time in eight years, 123456 is the world's most common password, with password and admin close behind in the US. A good nudge to check your own."
     }
   ]
 }
