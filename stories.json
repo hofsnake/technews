@@ -1,62 +1,62 @@
 {
-  "date": "2026-11-19",
-  "greeting": "Good morning, Rick! Amazon's Black Friday sale just kicked off, so pour that coffee and see what's worth a look.",
+  "date": "2026-11-20",
+  "greeting": "Good morning, Rick! Happy Friday, and Black Friday deals are already rolling in, so grab a coffee and take a look.",
   "items": [
     {
-      "title": "White House says recent bank, FAA, Microsoft, and Apple outages were not an attack",
-      "url": "https://9to5mac.com/2026/11/18/banks-faa-microsoft-apple-no-systemic-attack-on-the-us-says-white-house/",
-      "source": "9to5Mac",
+      "title": "Anthropic is now a public company worth more than $1 trillion",
+      "url": "https://www.engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion/",
+      "source": "Engadget",
       "tag": "Big story",
-      "note": "After a string of big outages hit Microsoft, the FAA, Chase, and Apple, people wondered if the country was under cyberattack. The White House says no, each one had its own separate cause."
+      "note": "Anthropic, the company behind the Claude AI assistant, started trading on the stock market Thursday in the largest IPO in Wall Street history. Its stock opened 34 percent above the offering price and briefly valued it at over $2 trillion."
     },
     {
-      "title": "You Need to Download iOS 27.2.1 Now for These Security Fixes",
-      "url": "https://www.cnet.com/tech/services-and-software/ios-27-2-1-bug-security-fixes/",
-      "source": "CNET",
-      "tag": "Apple",
-      "note": "Apple's iOS 27.2.1 update fixes nine issues, including a couple that could expose your personal data. Go to Settings, General, Software Update to grab it."
-    },
-    {
-      "title": "Amazon's 2026 Black Friday sale is now live",
-      "url": "https://9to5toys.com/2026/11/19/amazon-2026-black-friday-sale-now-live/",
-      "source": "9to5Toys",
-      "tag": "Deals",
-      "note": "Amazon's official Black Friday sale is live and runs for 12 days, with deals on AirPods Pro 3, Apple Watch Series 12, TVs, and lots more. A good time to knock out some Christmas shopping early."
-    },
-    {
-      "title": "ChatGPT app gains enhanced Live Dictation streaming without 10-minute limit",
-      "url": "https://9to5mac.com/2026/11/18/chatgpt-app-gains-enhanced-live-dictation-streaming-without-10-minute-limit/",
+      "title": "iOS 27 gave AirPods Pro a convenient new setting, here's how to use it",
+      "url": "https://9to5mac.com/2026/11/19/ios-27-gave-airpods-pro-convenient-new-setting-heres-how-to-use-it/",
       "source": "9to5Mac",
-      "tag": "AI",
-      "note": "ChatGPT's talk-to-type feature now shows your words as you speak and no longer cuts you off after 10 minutes. Handy if you'd rather talk than tap on your iPhone."
+      "tag": "Apple",
+      "note": "With your AirPods in, open Control Center, tap the volume slider, then Listening Mode. When Adaptive is picked, a new slider lets you tune how much outside sound you hear."
     },
     {
-      "title": "Ford Designed Its Fathom EV Battery Pack to Bend in a Crash, for Safety",
-      "url": "https://www.cnet.com/home/electric-vehicles/ford-fathom-ev-battery-pack-design-crash-safety/",
+      "title": "Apple TV is now $6.99/month (50% off) for Black Friday",
+      "url": "https://9to5mac.com/2026/11/19/apple-tv-launches-50-off-black-friday-deal-6-99-month-for-6-months/",
+      "source": "9to5Mac",
+      "tag": "Deals",
+      "note": "New and returning subscribers can get Apple TV for $6.99 a month for up to six months, half the usual $14.99. You have to sign up by Monday, November 30, and you can cancel anytime."
+    },
+    {
+      "title": "Google's latest home page redesign makes Gemini even more prominent",
+      "url": "https://www.engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent/",
+      "source": "Engadget",
+      "tag": "AI",
+      "note": "Google Search's AI mode on computers now has a pull-out sidebar that shows your recent searches so you can jump back to one. You may spot it on your Chromebook soon."
+    },
+    {
+      "title": "Uber Is Testing Rides for Kids With Qualified Drivers",
+      "url": "https://www.cnet.com/roadshow/uber-testing-rides-for-kids/",
       "source": "CNET",
       "tag": "Cars",
-      "note": "Ford built the battery in its upcoming Fathom electric truck to bend in a crash and soak up side-impact force, instead of being babied like a fragile part. Ford says that makes the truck lighter and safer."
+      "note": "Uber is trying out Uber Kids, which lets approved adults book rides for kids ages 10 to 12. The test starts in three cities, including Austin, and could grow if it goes well."
     },
     {
-      "title": "Vulcan failure caused by inadequate fuel supply to engines, ULA says",
-      "url": "https://arstechnica.com/space/2026/11/vulcan-failure-caused-by-inadequate-fuel-supply-to-engines-ula-says/",
+      "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
+      "url": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
       "source": "Ars Technica",
       "tag": "Science/Space",
-      "note": "ULA says Sunday's Vulcan rocket failure came from a fuel supply problem, not the Blue Origin engines. That's a big relief for Blue Origin and NASA, since the same engines power the New Glenn rocket."
+      "note": "NASA reshuffled its Artemis Moon plans to make things easier for the SpaceX and Blue Origin landers. The catch is that the Orion capsule now has to fly in ways it was never built for."
     },
     {
-      "title": "The iPhone Duo's hinge is wearing out after 525K folds in CNET's machine",
-      "url": "https://www.cnet.com/tech/mobile/watch-us-fold-the-iphone-duo-thousands-of-times-on-our-weeks-long-livestream/",
-      "source": "CNET",
-      "tag": "Fun",
-      "note": "CNET built a machine that has folded Apple's $1,999 iPhone Duo more than 525,000 times in four weeks, and the hinge is finally starting to wear out. You can watch it live on YouTube."
+      "title": "Mouse fight club might explain why we like to watch violent things",
+      "url": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
+      "source": "Ars Technica",
+      "tag": "Science/Space",
+      "note": "In a study in Nature, mice that just watched other mice fight did better in their own scraps than mice that never watched. A fun one for a former coach: watching film really does help a little."
     },
     {
-      "title": "123456 is still the world's most common password",
-      "url": "https://www.cnet.com/tech/services-and-software/unsafe-most-popular-password-123456-nordpass/",
+      "title": "The Funniest GTA 6 Memes Are Running Full Throttle",
+      "url": "https://www.cnet.com/tech/best-funniest-gta6-memes-jokes/",
       "source": "CNET",
       "tag": "Fun",
-      "note": "For the seventh time in eight years, 123456 is the world's most common password, with password and admin close behind in the US. A good nudge to check your own."
+      "note": "Grand Theft Auto 6 came out Thursday as the most preordered video game ever, and the internet went wild with jokes. Even if you haven't played a game since Frogger, these are good for a laugh."
     }
   ]
 }
