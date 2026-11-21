@@ -1,62 +1,62 @@
 {
-  "date": "2026-11-20",
-  "greeting": "Good morning, Rick! Happy Friday, and Black Friday deals are already rolling in, so grab a coffee and take a look.",
+  "date": "2026-11-21",
+  "greeting": "Good morning, Rick! Happy Saturday, grab a coffee and enjoy a relaxed scroll through today's tech news.",
   "items": [
     {
-      "title": "Anthropic is now a public company worth more than $1 trillion",
-      "url": "https://www.engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion/",
+      "title": "YouTube could pay $3 billion to settle social media addiction lawsuits with school districts",
+      "url": "https://www.engadget.com/2323927/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts/",
       "source": "Engadget",
       "tag": "Big story",
-      "note": "Anthropic, the company behind the Claude AI assistant, started trading on the stock market Thursday in the largest IPO in Wall Street history. Its stock opened 34 percent above the offering price and briefly valued it at over $2 trillion."
+      "note": "YouTube may pay around $3 billion to thousands of US school districts that say the app hurts students' mental health. The deal would also add new safety features for teens, something every former teacher can appreciate."
     },
     {
-      "title": "iOS 27 gave AirPods Pro a convenient new setting, here's how to use it",
-      "url": "https://9to5mac.com/2026/11/19/ios-27-gave-airpods-pro-convenient-new-setting-heres-how-to-use-it/",
+      "title": "iOS 27 lets you use two iPhones with the same phone number",
+      "url": "https://9to5mac.com/2026/11/20/ios-27-lets-you-use-two-iphones-with-the-same-phone-number/",
       "source": "9to5Mac",
       "tag": "Apple",
-      "note": "With your AirPods in, open Control Center, tap the volume slider, then Listening Mode. When Adaptive is picked, a new slider lets you tune how much outside sound you hear."
+      "note": "A handy change in iOS 27: if you carry two iPhones, you can now keep the same phone number on both. Calls and texts follow you to whichever one you pick up."
     },
     {
-      "title": "Apple TV is now $6.99/month (50% off) for Black Friday",
-      "url": "https://9to5mac.com/2026/11/19/apple-tv-launches-50-off-black-friday-deal-6-99-month-for-6-months/",
+      "title": "Best Apple Black Friday deals now live: AirPods, MacBook Neo, Series 12, M6 MacBook Pro, more [Updated]",
+      "url": "https://9to5mac.com/2026/11/20/best-apple-black-friday-deals-now-live/",
       "source": "9to5Mac",
       "tag": "Deals",
-      "note": "New and returning subscribers can get Apple TV for $6.99 a month for up to six months, half the usual $14.99. You have to sign up by Monday, November 30, and you can cancel anytime."
+      "note": "Black Friday sales are already live, and 9to5Mac rounded up the best Apple deals in one spot. AirPods Pro 3, AirPods Max 2, and Apple Watch Series 12 are at some of their lowest prices yet."
     },
     {
-      "title": "Google's latest home page redesign makes Gemini even more prominent",
-      "url": "https://www.engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent/",
-      "source": "Engadget",
+      "title": "Google Gemini Partners With Watch Duty to Clear Static From Firefighter Radio",
+      "url": "https://www.cnet.com/tech/services-and-software/google-gemini-clears-firefighter-radio-static/",
+      "source": "CNET",
       "tag": "AI",
-      "note": "Google Search's AI mode on computers now has a pull-out sidebar that shows your recent searches so you can jump back to one. You may spot it on your Chromebook soon."
+      "note": "Google's Gemini team spent six months working with the wildfire app Watch Duty to clean up static on firefighter radio calls. It's a nice example of AI doing real good when it counts."
     },
     {
-      "title": "Uber Is Testing Rides for Kids With Qualified Drivers",
-      "url": "https://www.cnet.com/roadshow/uber-testing-rides-for-kids/",
+      "title": "New Hyundai Elantra Hybrid Debuts With 53 Mpg, AI in the Dash",
+      "url": "https://www.cnet.com/roadshow/automobiles/2028-hyundai-elantra-hybrid-sedan-ai-assistant-la-auto-show/",
       "source": "CNET",
       "tag": "Cars",
-      "note": "Uber is trying out Uber Kids, which lets approved adults book rides for kids ages 10 to 12. The test starts in three cities, including Austin, and could grow if it goes well."
+      "note": "Hyundai showed off a redesigned Elantra Hybrid at the LA Auto Show that aims for about 53 mpg. It also gets a new AI voice assistant and one-pedal driving like an electric car."
     },
     {
-      "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
-      "url": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
-      "source": "Ars Technica",
-      "tag": "Science/Space",
-      "note": "NASA reshuffled its Artemis Moon plans to make things easier for the SpaceX and Blue Origin landers. The catch is that the Orion capsule now has to fly in ways it was never built for."
-    },
-    {
-      "title": "Mouse fight club might explain why we like to watch violent things",
-      "url": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
-      "source": "Ars Technica",
-      "tag": "Science/Space",
-      "note": "In a study in Nature, mice that just watched other mice fight did better in their own scraps than mice that never watched. A fun one for a former coach: watching film really does help a little."
-    },
-    {
-      "title": "The Funniest GTA 6 Memes Are Running Full Throttle",
-      "url": "https://www.cnet.com/tech/best-funniest-gta6-memes-jokes/",
+      "title": "Are We There Yet? NASA’s Escapade Is Officially Heading to Mars",
+      "url": "https://www.cnet.com/science/space/nasa-escapade-mars-gravity-assist/",
       "source": "CNET",
+      "tag": "Science/Space",
+      "note": "NASA's twin Mars probes, nicknamed Blue and Gold, spent a year looping near Earth and just used a flyby to slingshot toward the red planet. No space agency has tried staging a Mars trip like this before."
+    },
+    {
+      "title": "Teenage Engineering's first CD player kind of looks like a turntable",
+      "url": "https://www.engadget.com/2323390/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable/",
+      "source": "Engadget",
       "tag": "Fun",
-      "note": "Grand Theft Auto 6 came out Thursday as the most preordered video game ever, and the internet went wild with jokes. Even if you haven't played a game since Frogger, these are good for a laugh."
+      "note": "Teenage Engineering made a $329 CD player where the disc spins right on top like a record. A fun, retro gadget for anyone who still has a stack of CDs in the closet."
+    },
+    {
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "source": "Ars Technica",
+      "tag": "AI",
+      "note": "The Google.com homepage you've used for years is getting a makeover with AI chat built right in, and the classic search button is gone. Here's what you'll see next time you open it."
     }
   ]
 }
